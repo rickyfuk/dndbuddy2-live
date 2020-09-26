@@ -49,6 +49,7 @@ $('#logout').on('click', function () {
 		text: 'Save and Logout',
 		class: 'btn btn-primary logout-button',
 		id: 'logout1',
+		href: '/logout',
 		click: function () {
 			let name = localStorage.getItem('charName');
 			let race = localStorage.getItem('charRace');
@@ -62,8 +63,8 @@ $('#logout').on('click', function () {
 				updateUserChar(name, race, charClass, charGender, charID);
 			}
 			localStorage.clear();
-			$('logout1').attr('href', '/logout');
-			$('logout1').click();
+			// $('logout1').attr('href', '/logout');
+			// $('logout1').click();
 			$('#logoutModal').foundation('close');
 		},
 	});
