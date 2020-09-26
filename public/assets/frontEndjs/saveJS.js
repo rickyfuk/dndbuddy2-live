@@ -84,6 +84,7 @@ $('#logout').on('click', function () {
 	$(logoutModal).append(logoutBtn1);
 	$(logoutModal).append(logoutBtn2);
 	$(logoutModal).append(logoutBtn3);
+	$(document).foundation();
 	$('#logoutModal').foundation('open');
 });
 
