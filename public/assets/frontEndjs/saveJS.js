@@ -13,10 +13,11 @@ $('#savetoDB').on('click', function () {
 	}
 });
 
+$(document).foundation();
 //Logout button clears localstorage so a new user can login
 $('#logout').on('click', function () {
 	event.preventDefault();
-	$(document).foundation();
+	// $(document).foundation();
 
 	//CREATES MODAL
 	// create a div for the modal
