@@ -135,7 +135,7 @@ router.post('/api/saveANewChar', async function (req, res, next) {
 		gender: req.body.char_gender,
 		CharClassId: newCharClassID,
 		RaceId: newRaceID,
-		userID: userID,
+		UserId: userID,
 		created_at: date,
 		updated_at: date,
 		// now all the value hardcode as zero
