@@ -36,8 +36,8 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 // Set the route
-const htmlRoute = require('../dndbuddy2-live/controllers/htmlRoute');
-const apiRoute = require('../dndbuddy2-live/controllers/apiRoute');
+const htmlRoute = require('./controllers/htmlRoute');
+const apiRoute = require('./controllers/apiRoute');
 
 app.use(apiRoute);
 app.use(htmlRoute);
