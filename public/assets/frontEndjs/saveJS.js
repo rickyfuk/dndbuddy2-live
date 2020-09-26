@@ -84,7 +84,7 @@ $('#logout').on('click', function () {
 	$(logoutModal).append(logoutBtn1);
 	$(logoutModal).append(logoutBtn2);
 	$(logoutModal).append(logoutBtn3);
-	$(logoutModal).foundation('open');
+	$('#logoutModal').foundation('open');
 });
 
 // update the user data with the existing character
