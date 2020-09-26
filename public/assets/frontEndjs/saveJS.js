@@ -89,6 +89,7 @@ $('#logout').on('click', function () {
 });
 
 // update the user data with the existing character
+// update the user data with the existing character
 function updateUserChar(name, race, charClass, charGender, charID) {
 	$.ajax({
 		url: '/api/save',
