@@ -1,114 +1,129 @@
-# Project Name
+# DnD-Buddy-2.0
 
-Homework 13 - Bugger Logger
-
-# Table of contents
-
-- [Project Name](#project-name)
+# Table of Contents
+- [Project Name](#DnD-Buddy-2.0)
 - [Table of contents](#table-of-contents)
 - [General info](#general-info)
 - [Video Demo](#video-demo)
 - [Features](#features)
-- [User Guide](#user-guide)
-- [Code Style](#code-style)
+- [Screenshots](#screenshots)
 - [Technology](#technology)
-- [Local File Description](#local-file-description)
 - [Status](#status)
+- [Future Plan](#future-plan)
 - [Create By](#create-by)
 
-# General info
+# General Info
+This project quickly and simpily builds a Dungeons and Dragons character sheet, which can be saved and stored so players can access their character across devices and browsers.  The site is designed for all types of Dungeons and Dragons players.  Simple enough for first time players with all the features an experienced player would need.
 
-This application is serving as a process monitor of a burger from order to served to customer. Both the manager and customer could look check their burger order status from this application in order to reduce the staff workload.
+**Please visit [https://wmwassmann.github.io/dndbuddy-1/](https://wmwassmann.github.io/dndbuddy-1/) for the site.**
 
 For the feature of the site, please visit the [Features](#features) section for more details.
 
 # Video Demo
 
-![burger logger demo](./public/assets/img/BurgerLogger.gif)
-
-You might also visit the following youtube link for the demo:
-[burger logger demo](https://youtu.be/dB7DVuc1y7o)
-
 # Features
+D&D Buddy contains the following features:
 
-In this application, the following features have been applied:
+1. User Registration and Login
+    1. User will initially arrive at our login page, where they can gain entry to our character sheet by entering their email and password. 
+    2. If the user is new to our site they will need to register first and the button to register is clearly displayed on the login page.
 
-1. All the data is read from or written from the burger logger database
-2. The user can perform the following function from this application:
-   1. Add a new burger - a new burger will be added to under "Making Burger" list
-   2. Complete the making process - the burger will move to "Served Burger" list after the "Complete" button is clicked
-   3. Delete the burger - the burger can be deleted after moved to the "Served Burger" list
-3. All the data from the database will be loaded to the main page while the page is loaded
-4. Every Burger will come with an ID for easier reference when same burger name appears.
+2. Creating Character
+    1. User can follow our modal questionnaire to generate character sheet.
+    2. User can exit questionnaire and select the character's name, gender, race and class without aid.
+    3. User can elect a random name, gender, race and class without going through questionnaire.
 
-# User Guide
+3. Editing Character
+    1. At anypoint the user can change their character by double clicking the element of their character they would like to edit.
+    2. User can add or subtract character hitpoints determined by campaign play.
 
-1. The user can add a burger order on the text box under the "Serve a Burger" logo
-2. The user can review the list of the burger in progress from "Making Burger" list
-3. The user can check if the burger is ready to serve or not from the "Served Burger" list
-4. The user can change the burger from the "Making Burger" to "Served Burger" list by clicking the "Complete" button
-5. The user can remove the burger from the list by clicking "Delete" button under the "Serve Burger" list
-6. The user can only remove the burger from the "Served Burger" list
+4. Saving Character
+    1. After creating or editing their character the user has the option to save their character to our database, which will allow them to use the same character for multiple Dungeon and Dragons sessions and campaigns.
+    2. Additionally, generating a new character and not saving will allow the user to play a one off campaign but return to their main character later.
+
+3. Charcter Image, Stats, Skills and Weapons
+    1. Character's image, stats, skills and weapons will be dynamically generated based on their characters gender, race and class.
+    2. If user edits their character, intuitively the application will regenerate the appropriate image, stats, skills and weapons.
+
+4. Dice Roll
+    1. User can click on any one of six dice images, all which are used during Dungeons and Dragons campaign play, to generate a random roll.
+    2. Each click will produce a dice rolling sound for an enhanced user experience.
+
+5. Help Guides
+    1. User has access to multiple help guides through out the application.
+    2. Help guides have been placed strategically, where the user is likely to look for them. On mobile screens many of the help guides have been aggregated and can be found by clicking on User Guide in the top left corner.
+    3. Guides will provide game definitions to assist beginners with campaign play as well as guides to how the site functions which all users may find beneficial to help them navigate our site.
+
+# Screenshots
+Large Screen:
+
+![screenshotlg](assets/front-end-images/screenshot_large.PNG?raw=true)
+
+Medium Screen:
+
+![screenshotmd](assets/front-end-images/screenshot_medium.PNG?raw=true)
+
+Small Screen:
+
+![screenshotsm](assets/front-end-images/screenshot_small.PNG?raw=true)
 
 # Code Style
-
 Standard
 
 # Technology
-
 The following technology have been used for this project:
 
-1. [JavaScript](https://www.javascript.com/)
-2. [NodeJS](https://nodejs.org/en/)
-3. [NPM](https://www.npmjs.com/)
-   - The following application from NPM have been used:
-   1. [mysql](https://github.com/mysqljs/mysql#readme)
-   2. [Express](https://expressjs.com/)
-   3. [Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
-4. [MySQL](https://www.mysql.com/)
-5. [CSS](https://www.w3.org/Style/CSS/)
-6. [Bootstrap](https://getbootstrap.com/)
-7. [JQUERY](https://jquery.com/)
-8. [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+1. Application Programming Interface:
+    1. Youtube API - to play a Dungeons and Dragons introductory video
+    2. D&D 5th Edition API - to GET and populate useful information on user's character sheet
+   
+2. Stylesheets:
+    1. Foundation 6
+        1. Application Layout - provided the structure for our application
+        2. Modals - guide user through initial setup and offer help and definitions during campaign play
+        3. Responsive Layout - enhances campaign play by shifting most vital elements where user can readily access them
+    2. Bootstrap - used to format the mobile layout
+    2. Google Fonts - used font to indicate where to click in order to display help modals 
+    3. Reset CSS - to reset styling setting
+    4. Dice Font - to produce dice icons
+    5. Font Awesome - used to enhance user experience through campaign appropriate font
 
-# Local File Description
+3. Javascript files:
+12 javascript file has been composed for this application:
+    | File name  |               Description               |
+    | :----------: | :--------------------------------: |
+    |  characterimage.js    |  Generates Character's Image  |
+    |  dice.js  |  Function for the rolling dice feature  |
+    |  globalVar.js  |  Stores all the global variables  |
+    |  namebanner.js  |  Contains code to edit, generate and set to local storage the character's name, gender, race and class generate  |
+    |  openingmodal.js  |   Displays modals that appears when the applicaton loads  |
+    |  randomcharacter.js   |  Generates a random character sheet  |
+    |  skillsguidemodal.js   |  Displays skills guide modal on user click  |
+    |  spellsandequipmodal.js   |  Function to generate spells and equipment modal on user click  |
+    |  statmodalguides.js   |  Contains modals which explains the 6 attributes of Dungeons and Dragons  |
+    |  stats.js  |  Function that fills the 6 attributes based on the character's race and class  |
+    |  userguide.js  |  Generates user guide modal and contains hitpoint buttons  |
+    |  weaponspells.js  |  GETs data from Dungeons and Dragons 5e API and populates application  |
 
-Below are the description for all local files:
+4. NodeJS
 
-1. Main folder:
-   1. server.js - A JS file for setting up the route to "controller.js", listen to the port and link to the static files (i.e. frontend files: CSS and JS)
-   2. package.json - A file keep the project details
-2. Config:
-   1. connection.js - The JS file keeps the connection details to the database
-   2. orm.js - A JS file to keep all the reading and writing query template to/from database
-3. Controllers:
-   1. burgers_controller.js - A JS file to keep all the routing for the GET/POST/PUT/DELETE request from the frontend JS to the Database
-4. DB:
-   1. schema.sql - the SQL code for start up the database
-   2. seeds.sql - the SQL code for input the seed data for
-5. Models:
-   1. burger.js - The bridge function from the burger_controllers.js to orm.js for all GET/POST/PUT/DELETE request
-6. Public:
-   1. Assets:
-      1. CSS:
-         1. burger_style.css - the CSS styling file for the html output
-         2. reset.css - the CSS styling for reset the CSS
-      2. IMG - Keep all the images for the html deployment
-      3. JS:
-         1. burgerFrontEnd.js - the js file to keep all the JS Ajax code for the GET/POST/PUT/DELETE request from the backend
-7. Views: (for handlebars)
-   1. index.handlebars - the html of the body
-   2. layouts:
-      1. main.handlebars - the structure for the html when it is returning the result
-   3. partials:
-      1. burger:
-         1. burgerDone.handlebars - the html of the "Served Burger" list
-         2. burgerMaking.handlebars - the html of the "Making Burger" list
+5. NPM
+
+6. MySQL
+
 
 # Status
+Project status: Finished
 
-Project status: finished
+# Future Plan
+
+Plan for the future development of this site:
+1. Add additional character classes and races to enhance campaign play.
+2. Add the ability to save multiple characters per user.
+3. Connect dice rolls to dynamically fill character attributes, hitpoint and armor class values.
+4. Create a database for Dungeon Masters that will have include random campaigns and encounters.
+5. Give users the ability to access our character sheet without requiring them to register and login.
+6. Update when D&D 6th Edition becomes available.
 
 # Create By
-
-Created by Chung Hei Fuk
+Created by Chung Hei Fuk, David Deaton, Karl Behrens, Alex Madrigal and William Wassmann
