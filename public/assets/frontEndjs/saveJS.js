@@ -48,6 +48,7 @@ $('#logout').on('click', function () {
 	let logoutBtn1 = $('<button>', {
 		text: 'Save and Logout',
 		class: 'btn btn-primary logout-button',
+		id: 'logout1',
 		click: function () {
 			let name = localStorage.getItem('charName');
 			let race = localStorage.getItem('charRace');
@@ -61,24 +62,26 @@ $('#logout').on('click', function () {
 				updateUserChar(name, race, charClass, charGender, charID);
 			}
 			localStorage.clear();
-			$(this).attr('href', '/logout');
-			$(this).click();
+			$('logout1').attr('href', '/logout');
+			$('logout1').click();
 			$('#logoutModal').foundation('close');
 		},
 	});
 	let logoutBtn2 = $('<button>', {
 		text: 'Logout without Saving',
 		class: 'btn btn-primary logout-button',
+		id: 'logout2',
 		click: function () {
 			localStorage.clear();
-			$(this).attr('href', '/logout');
-			$(this).click();
+			$('logout2').attr('href', '/logout');
+			$('logout2').click();
 			$('#logoutModal').foundation('close');
 		},
 	});
 	let logoutBtn3 = $('<button>', {
 		text: 'Cancel',
 		class: 'btn btn-primary logout-button',
+		id: 'logout3',
 		click: function () {
 			$('#logoutModal').foundation('close');
 		},
