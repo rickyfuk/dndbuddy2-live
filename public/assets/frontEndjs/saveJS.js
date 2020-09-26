@@ -47,7 +47,7 @@ $('#logout').on('click', function () {
 	// LOGOUT BUTTONS
 	let logoutBtn1 = $('<button>', {
 		text: 'Save and Logout',
-		class: 'logout-button',
+		class: 'btn btn-primary logout-button',
 		click: function () {
 			let name = localStorage.getItem('charName');
 			let race = localStorage.getItem('charRace');
@@ -62,21 +62,23 @@ $('#logout').on('click', function () {
 			}
 			localStorage.clear();
 			$('#logout').attr('href', '/logout');
+			$('#logout').click();
 			$('#logoutModal').foundation('close');
 		},
 	});
 	let logoutBtn2 = $('<button>', {
 		text: 'Logout without Saving',
-		class: 'logout-button',
+		class: 'btn btn-primary logout-button',
 		click: function () {
 			localStorage.clear();
 			$('#logout').attr('href', '/logout');
+			$('#logout').click();
 			$('#logoutModal').foundation('close');
 		},
 	});
 	let logoutBtn3 = $('<button>', {
 		text: 'Cancel',
-		class: 'logout-button',
+		class: 'btn btn-primary logout-button',
 		click: function () {
 			$('#logoutModal').foundation('close');
 		},
@@ -88,7 +90,6 @@ $('#logout').on('click', function () {
 	$('#logoutModal').foundation('open');
 });
 
-// update the user data with the existing character
 // update the user data with the existing character
 function updateUserChar(name, race, charClass, charGender, charID) {
 	$.ajax({
