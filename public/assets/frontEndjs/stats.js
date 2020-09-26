@@ -57,10 +57,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +1");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Athletics: +5" + "</h5>");
-			$("#skill-2").html("<h5>" + "Intimidation: +1" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Athletics: +5" + "</h5>");
+			$("#skill-2").append("<h5>" + "Intimidation: +1" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Ranger') {
@@ -92,10 +92,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Animal Handling: +3" + "</h5>");
-			$("#skill-2").html("<h5>" + "Survival: +3" + "</h5>");
-			$("#skill-3").html("<h5>" + "Perception: +3" + "</h5>");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Animal Handling: +3" + "</h5>");
+			$("#skill-2").append("<h5>" + "Survival: +3" + "</h5>");
+			$("#skill-3").append("<h5>" + "Perception: +3" + "</h5>");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Wizard') {
@@ -127,10 +127,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Arcana: +5" + "</h5>");
-			$("#skill-2").html("<h5>" + "Investigation: +5" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Arcana: +5" + "</h5>");
+			$("#skill-2").append("<h5>" + "Investigation: +5" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Cleric') {
@@ -162,10 +162,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Medicine: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Insight: +4" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Medicine: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Insight: +4" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Rogue') {
@@ -197,10 +197,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 		}
 
 		else if (classDisplay === 'Bard') {
@@ -232,10 +232,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +1");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 		}    
     } 
     
@@ -271,10 +271,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Athletics: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Intimidation: +2" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Athletics: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Intimidation: +2" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Ranger') {
@@ -306,10 +306,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +3");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Animal Handling: +3" + "</h5>");
-			$("#skill-2").html("<h5>" + "Survival: +3" + "</h5>");
-			$("#skill-3").html("<h5>" + "Perception: +3" + "</h5>");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Animal Handling: +3" + "</h5>");
+			$("#skill-2").append("<h5>" + "Survival: +3" + "</h5>");
+			$("#skill-3").append("<h5>" + "Perception: +3" + "</h5>");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Wizard') {
@@ -341,10 +341,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Arcana: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Investigation: +4" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Arcana: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Investigation: +4" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Cleric') {
@@ -376,10 +376,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Medicine: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Insight: +4" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Medicine: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Insight: +4" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Rogue') {
@@ -411,10 +411,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +3");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Stealth: +5" + "</h5>");
-			$("#skill-2").html("<h5>" + "Acrobatics: +5" + "</h5>");
-			$("#skill-3").html("<h5>" + "Sleight of Hand: +5" + "</h5>");
-			$("#skill-4").html("<h5>" + "Persuasion: +5" + "</h5>");
+			$("#skill-1").append("<h5>" + "Stealth: +5" + "</h5>");
+			$("#skill-2").append("<h5>" + "Acrobatics: +5" + "</h5>");
+			$("#skill-3").append("<h5>" + "Sleight of Hand: +5" + "</h5>");
+			$("#skill-4").append("<h5>" + "Persuasion: +5" + "</h5>");
 		}
 		else if (classDisplay === 'Bard') {
 			$(hitpoints).text('9');
@@ -445,10 +445,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +1");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 		}   
     } 
     
@@ -484,10 +484,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +1");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Athletics: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Intimidation: +1" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Athletics: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Intimidation: +1" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Ranger') {
@@ -519,10 +519,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Animal Handling: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Survival: +4" + "</h5>");
-			$("#skill-3").html("<h5>" + "Perception: +4" + "</h5>");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Animal Handling: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Survival: +4" + "</h5>");
+			$("#skill-3").append("<h5>" + "Perception: +4" + "</h5>");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Wizard') {
@@ -554,10 +554,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +3");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Arcana: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Investigation: +4" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Arcana: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Investigation: +4" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Cleric') {
@@ -589,10 +589,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +3");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Medicine: +5" + "</h5>");
-			$("#skill-2").html("<h5>" + "Insight: +5" + "</h5>");
-			$("#skill-3").html(" ");
-			$("#skill-4").html(" ");
+			$("#skill-1").append("<h5>" + "Medicine: +5" + "</h5>");
+			$("#skill-2").append("<h5>" + "Insight: +5" + "</h5>");
+			$("#skill-3").append(" ");
+			$("#skill-4").append(" ");
         } 
         
         else if (classDisplay === 'Rogue') {
@@ -624,10 +624,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Dexterity");
-			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 		}
 
 		else if (classDisplay === 'Bard') {
@@ -659,10 +659,10 @@ function stats() {
 			$(dexWisMod).text("Mod: +2");
 			$(dexWis).append(dexWisMod);
 			$('#dexWis').text("Wisdom");
-			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 		}  
 	}
 	
@@ -697,10 +697,10 @@ else if (race === 'Tiefling') {
 		$(dexWisMod).text("Mod: +1");
 		$(dexWis).append(dexWisMod);
 		$('#dexWis').text("Dexterity");
-		$("#skill-1").html("<h5>" + "Athletics: +4" + "</h5>");
-		$("#skill-2").html("<h5>" + "Intimidation: +1" + "</h5>");
-		$("#skill-3").html(" ");
-		$("#skill-4").html(" ");
+		$("#skill-1").append("<h5>" + "Athletics: +4" + "</h5>");
+		$("#skill-2").append("<h5>" + "Intimidation: +1" + "</h5>");
+		$("#skill-3").append(" ");
+		$("#skill-4").append(" ");
 	} 
 	
 	else if (classDisplay === 'Ranger') {
@@ -732,10 +732,10 @@ else if (race === 'Tiefling') {
 		$(dexWisMod).text("Mod: +2");
 		$(dexWis).append(dexWisMod);
 		$('#dexWis').text("Dexterity");
-		$("#skill-1").html("<h5>" + "Animal Handling: +4" + "</h5>");
-		$("#skill-2").html("<h5>" + "Survival: +4" + "</h5>");
-		$("#skill-3").html("<h5>" + "Perception: +4" + "</h5>");
-		$("#skill-4").html(" ");
+		$("#skill-1").append("<h5>" + "Animal Handling: +4" + "</h5>");
+		$("#skill-2").append("<h5>" + "Survival: +4" + "</h5>");
+		$("#skill-3").append("<h5>" + "Perception: +4" + "</h5>");
+		$("#skill-4").append(" ");
 	} 
 	
 	else if (classDisplay === 'Wizard') {
@@ -767,10 +767,10 @@ else if (race === 'Tiefling') {
 		$(dexWisMod).text("Mod: +3");
 		$(dexWis).append(dexWisMod);
 		$('#dexWis').text("Wisdom");
-		$("#skill-1").html("<h5>" + "Arcana: +4" + "</h5>");
-		$("#skill-2").html("<h5>" + "Investigation: +4" + "</h5>");
-		$("#skill-3").html(" ");
-		$("#skill-4").html(" ");
+		$("#skill-1").append("<h5>" + "Arcana: +4" + "</h5>");
+		$("#skill-2").append("<h5>" + "Investigation: +4" + "</h5>");
+		$("#skill-3").append(" ");
+		$("#skill-4").append(" ");
 	} 
 	
 	else if (classDisplay === 'Cleric') {
@@ -802,10 +802,10 @@ else if (race === 'Tiefling') {
 		$(dexWisMod).text("Mod: +3");
 		$(dexWis).append(dexWisMod);
 		$('#dexWis').text("Wisdom");
-		$("#skill-1").html("<h5>" + "Medicine: +5" + "</h5>");
-		$("#skill-2").html("<h5>" + "Insight: +5" + "</h5>");
-		$("#skill-3").html(" ");
-		$("#skill-4").html(" ");
+		$("#skill-1").append("<h5>" + "Medicine: +5" + "</h5>");
+		$("#skill-2").append("<h5>" + "Insight: +5" + "</h5>");
+		$("#skill-3").append(" ");
+		$("#skill-4").append(" ");
 	} 
 	
 	else if (classDisplay === 'Rogue') {
@@ -837,10 +837,10 @@ else if (race === 'Tiefling') {
 		$(dexWisMod).text("Mod: +2");
 		$(dexWis).append(dexWisMod);
 		$('#dexWis').text("Dexterity");
-		$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-		$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-		$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-		$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+		$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+		$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+		$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+		$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 	}
 
 	else if (classDisplay === 'Bard') {
@@ -872,10 +872,10 @@ else if (race === 'Tiefling') {
 		$(dexWisMod).text("Mod: +3");
 		$(dexWis).append(dexWisMod);
 		$('#dexWis').text("Wisdom");
-		$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-		$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-		$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-		$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+		$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+		$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+		$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+		$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 		}  
 	}
 }
@@ -902,10 +902,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +1");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Athletics: +5" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Intimidation: +1" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Athletics: +5" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Intimidation: +1" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Ranger') {
 // 			$(strInt).text('16');
@@ -916,10 +916,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Animal Handling: +3" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Survival: +3" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Perception: +3" + "</h5>");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Animal Handling: +3" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Survival: +3" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Perception: +3" + "</h5>");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Wizard') {
 // 			$(strInt).text('17');
@@ -930,10 +930,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Arcana: +5" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Investigation: +5" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Arcana: +5" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Investigation: +5" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Cleric') {
 // 			$(strInt).text('12');
@@ -944,10 +944,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Medicine: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Insight: +4" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Medicine: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Insight: +4" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Rogue') {
 // 			$(strInt).text('15');
@@ -958,10 +958,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-// 			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+// 			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+// 			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 // 		}
 // 		else if (classDisplay === 'Bard') {
 // 			$(strInt).text('11');
@@ -972,10 +972,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +1");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-// 			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+// 			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+// 			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 // 		}
 // 	}
 // 	else if (race === 'Elf') {
@@ -988,10 +988,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Athletics: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Intimidation: +2" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Athletics: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Intimidation: +2" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Ranger') {
 // 			$(strInt).text('14');
@@ -1002,10 +1002,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +3");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Animal Handling: +3" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Survival: +3" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Perception: +3" + "</h5>");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Animal Handling: +3" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Survival: +3" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Perception: +3" + "</h5>");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Wizard') {
 // 			$(strInt).text('15');
@@ -1016,10 +1016,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Arcana: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Investigation: +4" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Arcana: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Investigation: +4" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Cleric') {
 // 			$(strInt).text('10');
@@ -1030,10 +1030,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Medicine: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Insight: +4" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Medicine: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Insight: +4" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Rogue') {
 // 			$(strInt).text('13');
@@ -1044,10 +1044,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +3");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Stealth: +5" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Acrobatics: +5" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Sleight of Hand: +5" + "</h5>");
-// 			$("#skill-4").html("<h5>" + "Persuasion: +5" + "</h5>");
+// 			$("#skill-1").append("<h5>" + "Stealth: +5" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Acrobatics: +5" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Sleight of Hand: +5" + "</h5>");
+// 			$("#skill-4").append("<h5>" + "Persuasion: +5" + "</h5>");
 // 		}
 // 		else if (classDisplay === 'Bard') {
 // 			$(strInt).text('12');
@@ -1058,10 +1058,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +1");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-// 			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+// 			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+// 			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 // 		}
 // 	}
 // 	else if (race === 'Dwarf') {
@@ -1074,10 +1074,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +1");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Athletics: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Intimidation: +1" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Athletics: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Intimidation: +1" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Ranger') {
 // 			$(strInt).text('14');
@@ -1088,10 +1088,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Animal Handling: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Survival: +4" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Perception: +4" + "</h5>");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Animal Handling: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Survival: +4" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Perception: +4" + "</h5>");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Wizard') {
 // 			$(strInt).text('15');
@@ -1102,10 +1102,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +3");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Arcana: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Investigation: +4" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Arcana: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Investigation: +4" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Cleric') {
 // 			$(strInt).text('10');
@@ -1116,10 +1116,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +3");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Medicine: +5" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Insight: +5" + "</h5>");
-// 			$("#skill-3").html(" ");
-// 			$("#skill-4").html(" ");
+// 			$("#skill-1").append("<h5>" + "Medicine: +5" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Insight: +5" + "</h5>");
+// 			$("#skill-3").append(" ");
+// 			$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Rogue') {
 // 			$(strInt).text('13');
@@ -1130,10 +1130,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Dexterity");
-// 			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-// 			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+// 			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+// 			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 // 		}
 // 		else if (classDisplay === 'Bard') {
 // 			$(strInt).text('10');
@@ -1144,10 +1144,10 @@ else if (race === 'Tiefling') {
 // 			$(dexWisMod).text("Mod: +2");
 // 			$(dexWis).append(dexWisMod);
 // 			$('#dexWis').text("Wisdom");
-// 			$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-// 			$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-// 			$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-// 			$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+// 			$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+// 			$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+// 			$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+// 			$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 // 		}
 // 	}
 // 	else if (race === 'Tiefling') {
@@ -1160,10 +1160,10 @@ else if (race === 'Tiefling') {
 // 		$(dexWisMod).text("Mod: +1");
 // 		$(dexWis).append(dexWisMod);
 // 		$('#dexWis').text("Dexterity");
-// 		$("#skill-1").html("<h5>" + "Athletics: +4" + "</h5>");
-// 		$("#skill-2").html("<h5>" + "Intimidation: +1" + "</h5>");
-// 		$("#skill-3").html(" ");
-// 		$("#skill-4").html(" ");
+// 		$("#skill-1").append("<h5>" + "Athletics: +4" + "</h5>");
+// 		$("#skill-2").append("<h5>" + "Intimidation: +1" + "</h5>");
+// 		$("#skill-3").append(" ");
+// 		$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Ranger') {
 // 		$(strInt).text('14');
@@ -1174,10 +1174,10 @@ else if (race === 'Tiefling') {
 // 		$(dexWisMod).text("Mod: +2");
 // 		$(dexWis).append(dexWisMod);
 // 		$('#dexWis').text("Dexterity");
-// 		$("#skill-1").html("<h5>" + "Animal Handling: +4" + "</h5>");
-// 		$("#skill-2").html("<h5>" + "Survival: +4" + "</h5>");
-// 		$("#skill-3").html("<h5>" + "Perception: +4" + "</h5>");
-// 		$("#skill-4").html(" ");
+// 		$("#skill-1").append("<h5>" + "Animal Handling: +4" + "</h5>");
+// 		$("#skill-2").append("<h5>" + "Survival: +4" + "</h5>");
+// 		$("#skill-3").append("<h5>" + "Perception: +4" + "</h5>");
+// 		$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Wizard') {
 // 		$(strInt).text('15');
@@ -1188,10 +1188,10 @@ else if (race === 'Tiefling') {
 // 		$(dexWisMod).text("Mod: +3");
 // 		$(dexWis).append(dexWisMod);
 // 		$('#dexWis').text("Wisdom");
-// 		$("#skill-1").html("<h5>" + "Arcana: +4" + "</h5>");
-// 		$("#skill-2").html("<h5>" + "Investigation: +4" + "</h5>");
-// 		$("#skill-3").html(" ");
-// 		$("#skill-4").html(" ");
+// 		$("#skill-1").append("<h5>" + "Arcana: +4" + "</h5>");
+// 		$("#skill-2").append("<h5>" + "Investigation: +4" + "</h5>");
+// 		$("#skill-3").append(" ");
+// 		$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Cleric') {
 // 		$(strInt).text('10');
@@ -1202,10 +1202,10 @@ else if (race === 'Tiefling') {
 // 		$(dexWisMod).text("Mod: +3");
 // 		$(dexWis).append(dexWisMod);
 // 		$('#dexWis').text("Wisdom");
-// 		$("#skill-1").html("<h5>" + "Medicine: +5" + "</h5>");
-// 		$("#skill-2").html("<h5>" + "Insight: +5" + "</h5>");
-// 		$("#skill-3").html(" ");
-// 		$("#skill-4").html(" ");
+// 		$("#skill-1").append("<h5>" + "Medicine: +5" + "</h5>");
+// 		$("#skill-2").append("<h5>" + "Insight: +5" + "</h5>");
+// 		$("#skill-3").append(" ");
+// 		$("#skill-4").append(" ");
 // 		}
 // 		else if (classDisplay === 'Rogue') {
 // 		$(strInt).text('13');
@@ -1216,10 +1216,10 @@ else if (race === 'Tiefling') {
 // 		$(dexWisMod).text("Mod: +2");
 // 		$(dexWis).append(dexWisMod);
 // 		$('#dexWis').text("Dexterity");
-// 		$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-// 		$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-// 		$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-// 		$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+// 		$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+// 		$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+// 		$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+// 		$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 // 		}
 // 		else if (classDisplay === 'Bard') {
 // 		$(strInt).text('10');
@@ -1230,10 +1230,10 @@ else if (race === 'Tiefling') {
 // 		$(dexWisMod).text("Mod: +3");
 // 		$(dexWis).append(dexWisMod);
 // 		$('#dexWis').text("Wisdom");
-// 		$("#skill-1").html("<h5>" + "Stealth: +4" + "</h5>");
-// 		$("#skill-2").html("<h5>" + "Acrobatics: +4" + "</h5>");
-// 		$("#skill-3").html("<h5>" + "Sleight of Hand: +4" + "</h5>");
-// 		$("#skill-4").html("<h5>" + "Persuasion: +4" + "</h5>");
+// 		$("#skill-1").append("<h5>" + "Stealth: +4" + "</h5>");
+// 		$("#skill-2").append("<h5>" + "Acrobatics: +4" + "</h5>");
+// 		$("#skill-3").append("<h5>" + "Sleight of Hand: +4" + "</h5>");
+// 		$("#skill-4").append("<h5>" + "Persuasion: +4" + "</h5>");
 // 		}
 // 	}
 // }
