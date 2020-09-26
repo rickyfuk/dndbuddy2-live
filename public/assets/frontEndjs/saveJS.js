@@ -47,7 +47,7 @@ $('#logout').on('click', function () {
 	// LOGOUT BUTTONS
 	let logoutBtn1 = $('<button>', {
 		text: 'Save and Logout',
-		class: 'btn btn-primary',
+		class: 'btn btn-primary logout-button',
 		click: function () {
 			let name = localStorage.getItem('charName');
 			let race = localStorage.getItem('charRace');
@@ -61,22 +61,24 @@ $('#logout').on('click', function () {
 				updateUserChar(name, race, charClass, charGender, charID);
 			}
 			localStorage.clear();
-			$('#logout').attr('href', '/logout');
+			$(this).attr('href', '/logout');
+			$(this).click();
 			$('#logoutModal').foundation('close');
 		},
 	});
 	let logoutBtn2 = $('<button>', {
 		text: 'Logout without Saving',
-		class: 'btn btn-primary',
+		class: 'btn btn-primary logout-button',
 		click: function () {
 			localStorage.clear();
-			$('#logout').attr('href', '/logout');
+			$(this).attr('href', '/logout');
+			$(this).click();
 			$('#logoutModal').foundation('close');
 		},
 	});
 	let logoutBtn3 = $('<button>', {
 		text: 'Cancel',
-		class: 'btn btn-primary',
+		class: 'btn btn-primary logout-button',
 		click: function () {
 			$('#logoutModal').foundation('close');
 		},
@@ -84,7 +86,8 @@ $('#logout').on('click', function () {
 	$(logoutModal).append(logoutBtn1);
 	$(logoutModal).append(logoutBtn2);
 	$(logoutModal).append(logoutBtn3);
-	$(logoutModal).foundation('open');
+	$(document).foundation();
+	$('#logoutModal').foundation('open');
 });
 
 // update the user data with the existing character
