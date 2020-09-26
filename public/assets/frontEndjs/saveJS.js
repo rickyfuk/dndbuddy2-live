@@ -47,7 +47,7 @@ $('#logout').on('click', function () {
 	// LOGOUT BUTTONS
 	let logoutBtn1 = $('<button>', {
 		text: 'Save and Logout',
-		class: 'logout-button',
+		class: 'btn btn-primary',
 		click: function () {
 			let name = localStorage.getItem('charName');
 			let race = localStorage.getItem('charRace');
@@ -67,7 +67,7 @@ $('#logout').on('click', function () {
 	});
 	let logoutBtn2 = $('<button>', {
 		text: 'Logout without Saving',
-		class: 'logout-button',
+		class: 'btn btn-primary',
 		click: function () {
 			localStorage.clear();
 			$('#logout').attr('href', '/logout');
@@ -76,7 +76,7 @@ $('#logout').on('click', function () {
 	});
 	let logoutBtn3 = $('<button>', {
 		text: 'Cancel',
-		class: 'logout-button',
+		class: 'btn btn-primary',
 		click: function () {
 			$('#logoutModal').foundation('close');
 		},

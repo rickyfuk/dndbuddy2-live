@@ -67,7 +67,6 @@ function sendCharInfoToLocal() {
 		weaponsSpells();
 		randomImage();
 		stats();
-		mobileStats();
 	});
 }
 
