@@ -45,7 +45,7 @@ $('#logout').on('click', function () {
 	$(logoutModal).append(logoutDesc2);
 
 	// LOGOUT BUTTONS
-	let logoutBtn1 = $('<button>', {
+	let logoutBtn1 = $('<a>', {
 		text: 'Save and Logout',
 		class: 'btn btn-primary logout-button',
 		id: 'logout1',
@@ -67,7 +67,7 @@ $('#logout').on('click', function () {
 			$('#logoutModal').foundation('close');
 		},
 	});
-	let logoutBtn2 = $('<button>', {
+	let logoutBtn2 = $('<a>', {
 		text: 'Logout without Saving',
 		class: 'btn btn-primary logout-button',
 		id: 'logout2',
@@ -78,7 +78,7 @@ $('#logout').on('click', function () {
 			$('#logoutModal').foundation('close');
 		},
 	});
-	let logoutBtn3 = $('<button>', {
+	let logoutBtn3 = $('<a>', {
 		text: 'Cancel',
 		class: 'btn btn-primary logout-button',
 		id: 'logout3',
