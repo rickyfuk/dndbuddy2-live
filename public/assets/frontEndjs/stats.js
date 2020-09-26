@@ -29,9 +29,9 @@ function stats() {
 	if (race === 'Human') {
 
 		if (classDisplay === 'Fighter') {
-			$(hitpoints).text('15');
-			$(armor).text('15');
-			$(str).text('17');
+			hitpoints.text('15');
+			armor.text('15');
+			str.text('17');
 			$(strMod).text("Mod: +3");
 			$(str).append(strMod);
 			$(dex).text('13');
