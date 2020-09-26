@@ -61,8 +61,8 @@ $('#logout').on('click', function () {
 				updateUserChar(name, race, charClass, charGender, charID);
 			}
 			localStorage.clear();
-			$('#logout').attr('href', '/logout');
-			$('#logout').click();
+			$(this).attr('href', '/logout');
+			$(this).click();
 			$('#logoutModal').foundation('close');
 		},
 	});
@@ -71,8 +71,8 @@ $('#logout').on('click', function () {
 		class: 'btn btn-primary logout-button',
 		click: function () {
 			localStorage.clear();
-			$('#logout').attr('href', '/logout');
-			$('#logout').click();
+			$(this).attr('href', '/logout');
+			$(this).click();
 			$('#logoutModal').foundation('close');
 		},
 	});
