@@ -72,10 +72,9 @@ $('#logout').on('click', function () {
 		text: 'Logout without Saving',
 		class: 'btn btn-primary logout-button',
 		id: 'logout2',
+		href: '/logout',
 		click: function () {
 			localStorage.clear();
-			$('logout2').attr('href', '/logout');
-			$('logout2').click();
 			$('#logoutModal').foundation('close');
 		},
 	});
