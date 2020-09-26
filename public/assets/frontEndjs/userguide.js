@@ -34,7 +34,7 @@ $("#index-user-guide").click(function () {
 	$(navCharSetup).text("Character Setup");
 	// append the h2 to the div
 	$(userModal).append(navCharSetup);
-	var bannerNameP = $('<p>');
+	var navCharSetupP = $('<p>');
 	// add text for the h2 tag
 	$(navCharSetupP).text("To initialize the character setup questionnaire click on Character Setup in the Navigation Bar.");
 	// append the p to the div
